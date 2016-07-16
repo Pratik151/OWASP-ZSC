@@ -70,6 +70,8 @@ replace_values_static = {
 		'dec %ecx':'49',
 		'neg %ecx':'f7 d9',
 		'neg %eax':'f7 d8',
+		'sub %eax,%ecx':'29 c1',
+		'sub %ebx,%ecx':'29 d9',
                 'subl $0x61,0x3(%esp)':'83 6c 24 03 61',
                 'lods %ds:(%esi),%eax':'ad',
                 'add %ebx,%esi':'01 de',
